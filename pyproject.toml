@@ -7,12 +7,19 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+numpy = "^2.2.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+scikit-learn = "^1.6.0"
+wordcloud = "^1.9.4"
 
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.8.0"
 black = "^24.10.0"
 pre-commit = "^4.0.1"
+jupyter = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]
